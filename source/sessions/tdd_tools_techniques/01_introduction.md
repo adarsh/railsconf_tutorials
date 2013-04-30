@@ -11,6 +11,10 @@ a Rails application in a Test-Driven approach.
 Our approach will be to introduce a topic, speak about it for a few minutes,
 then live-TDD a feature.
 
+We've got a bunch of material we'd like to cover, and we're going to do this
+workshop-style. Which means, please shout out questions, this is more like
+group pairing than a lecture. Also if we screw something up, please let us know.
+
 ## What TDD is and why do it
 
 Test-Driven Development (TDD) is the practice of writing a test for your
@@ -21,6 +25,7 @@ TDD is a complete shift in thinking and requires discipline to develop the
 habit, however the resulting software is much better.
 
 Some advantages of writing software this way:
+
 * You set the expected outcome first, then write only enough code to make the
   test pass. In this way, extraneous code is limited. 
 * Forces you to consider the purpose of the code at the outset, which can narrow
