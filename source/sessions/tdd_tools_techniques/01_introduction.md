@@ -5,16 +5,6 @@ section: TDD Tools, Techniques, and Discipline
 sidebar: false
 ---
 
-Welcome to our two-part TDD workshop. We will be covering how to add features to
-a Rails application in a Test-Driven approach.
-
-Our approach will be to introduce a topic, speak about it for a few minutes,
-then live-TDD a feature.
-
-We've got a bunch of material we'd like to cover, and we're going to do this
-workshop-style. Which means, please shout out questions, this is more like
-group pairing than a lecture. Also if we screw something up, please let us know.
-
 ## What TDD is and why do it
 
 Test-Driven Development (TDD) is the practice of writing a test for your
@@ -47,6 +37,6 @@ means you will write another test and try to make that pass. In the case of
 Behavior-Driven Development (BDD), we set high-level test expectations and allow
 them to guide us to what lower-level code is necessary as well.
 
-Lets get started with [an example of Outside-In Development][1]
+Let's get started with [an example of Outside-In Development][1]
 
 [1]: {% page_url 02_integration_testing %}

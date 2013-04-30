@@ -5,10 +5,14 @@ section: TDD Tools, Techniques, and Discipline
 sidebar: false
 ---
 
+# Why Integration Testing?
+
 Integration testing is the process of "integrating" your software pieces and
-testing them as a whole. Rails builds web applications, so testing the full
-stack means starting a web server, opening a browser, and mousing through the
-normal functions of your application.
+testing them as a whole stack. Rails builds web applications, so testing the
+full stack means starting a web server, opening a browser, and mousing through
+the normal functions of your application.
+
+The goal is to simulate the experience of the user.
 
 The evolution of Integration Testing looks something like this:
 

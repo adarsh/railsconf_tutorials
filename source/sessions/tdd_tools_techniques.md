@@ -4,18 +4,7 @@ title: TDD - Tools, Techniques, and Discipline
 sidebar: false
 ---
 
-We will be building features in a test-driven approach. This is best for
-participants who are familiar with Rails and have implemented some basic
-features within an application. That being said, all are encouraged to
-attend/watch.
-
-For the above reasons, we _strongly_ encourage pairing with someone else during
-the workshop. Also, if you see others struggling, please help where possible.
-
-For newcomers to Rails, we recommend checking out the learning resources at our
-[Rails trail-map on our Learn Portal][1].
-
-## Smoke Test
+## Prerequisite: Smoke Test
 
 Clone [the repository][2] and make sure you can run `rspec` successfully from
 the root of the project:
@@ -33,6 +22,41 @@ Finished in 0.08985 seconds
 Randomized with seed 52557
 {% endterminal %}
 
+## Welcome to TDD
+
+Welcome to our two-part TDD workshop. We will be covering how to add features to
+a Rails application in a Test-Driven fashion.
+
+We will be building features in a test-driven approach. This is best for
+participants who are familiar with Rails and have implemented some basic
+features within an application.
+
+In our time at thoughtbot, we discovered some challenging things to testing and
+so we're hoping to share some of the things we've learned to help make your path
+to TDD smoother.
+
+That being said, all are encouraged to attend/watch. You are very likely to see
+these thing in the future, so getting exposed to them is very valuable, even if
+it feels over your head.
+
+Our approach will be to introduce a topic, speak about it for a few minutes,
+then live-TDD a feature.
+
+We've got a bunch of material we'd like to cover, and we're going to do this
+workshop-style. Which means, please shout out questions, this is more like group
+pairing than a lecture. Also if we screw something up, please let us know.
+
+For the above reasons, we _strongly_ encourage pairing with someone else during
+the workshop. Also, if you see others struggling, please help where possible.
+
+We are going to pair program as well between us, to demonstrate what that looks
+like.
+
+We have TA's in the audience, please ask them for help.
+
+For newcomers to Rails, we recommend checking out the learning resources at our
+[Rails trail-map on our Learn Portal][1].
+
 ## Workshop 1
 
 Outward-in devleopment, unit tests, and fixture data.
@@ -41,13 +65,13 @@ Outward-in devleopment, unit tests, and fixture data.
 - [Outside-In and Integration Testing][4]
 - [Testing Associations and Validations][5]
 - [Generating test data][6]
-- [Sending email][7]
 
 ## Workshop 2
 
 Mocking, stubbing, and faking external services.
 
 - [Limiting test scope][9]
+- [Sending email][7]
 - [Running background processes][10]
 - [Working with 3rd party external services][11]
 
