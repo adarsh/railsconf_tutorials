@@ -21,14 +21,14 @@ TDD is a complete shift in thinking and requires discipline to develop the
 habit, however the resulting software is much better.
 
 Some advantages of writing software this way:
-- You set the expected outcome first, then write only enough code to make the
-  test pass. In this way, extraneous code is limited.
-- Forces you to consider the purpose of the code at the outset, which can narrow
-  specificity
-- Reduced bugs and rework
-- A solid test suite tells you if a change or refactoring has broken previously
-  working code
-- Clearly written tests serve as a form of documentation
+* You set the expected outcome first, then write only enough code to make the
+  test pass. In this way, extraneous code is limited. 
+* Forces you to consider the purpose of the code at the outset, which can narrow
+  specificity 
+* Reduced bugs and rework 
+* A solid test suite tells you if a change or refactoring has broken previously
+  working code 
+* Clearly written tests serve as a form of documentation 
 
 ## Red-Green-Refactor
 
